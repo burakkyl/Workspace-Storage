@@ -1,0 +1,44 @@
+# bağımlılıklar
+node_modules/
+.pnpm-store/
+
+# derleme çıktıları
+mobile/dist/
+server/data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# native build çıktıları (kaynak projeler repoda kalır)
+mobile/android/app/build/
+mobile/android/build/
+mobile/android/.gradle/
+mobile/android/capacitor-cordova-android-plugins/build/
+mobile/android/local.properties
+mobile/android/**/*.keystore
+mobile/ios/App/Pods/
+mobile/ios/App/build/
+mobile/ios/App/DerivedData/
+mobile/ios/App/App.xcworkspace/xcuserdata/
+mobile/ios/App/App.xcodeproj/xcuserdata/
+mobile/ios/App/*.xcarchive
+mobile/ios/App/Podfile.lock
+mobile/android/.idea/
+
+# ortam ve gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# editör / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# arena/önizleme geçici dosyaları
+.icon_preview.png
+.splash_preview.png
+.launcher_preview.png
